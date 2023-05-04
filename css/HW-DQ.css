@@ -1,0 +1,163 @@
+.bg-DQ1 {
+  background-color: #f3f2ee;
+}
+
+.text-DQ1 {
+  color: #f3f2ee;
+}
+
+.bg-DQ2 {
+  background-color: #cccbc8;
+}
+
+.text-DQ2 {
+  color: #cccbc8;
+}
+
+.bg-DQ3 {
+  background-color: #b9b8b5;
+}
+
+.text-DQ3 {
+  color: #b9b8b5;
+}
+
+.bg-DQ4 {
+  background-color: #4e4e4d;
+}
+
+.text-DQ4 {
+  color: #4e4e4d;
+}
+
+.bg-DQ5 {
+  background-color: #08a1e4;
+}
+
+.text-DQ5 {
+  color: #08a1e4;
+}
+
+.h25px {
+  height: 25px;
+}
+
+.w25px {
+  width: 25px;
+}
+
+.h50px {
+  height: 50px;
+}
+
+.w45px {
+  width: 45px;
+}
+
+.h45px {
+  height: 45px;
+}
+
+.w50px {
+  width: 50px;
+}
+
+.h70px {
+  height: 70px;
+}
+
+.w100px {
+  width: 100px;
+}
+
+.h150px {
+  height: 150px;
+}
+
+.h200px {
+  height: 200px;
+}
+
+.h250px {
+  height: 250px;
+}
+
+.w250px {
+  width: 250px;
+}
+
+.h850px {
+  height: 850px;
+}
+
+body {
+  background-color: #f3f2ee;
+}
+
+.navbar {
+  margin-top: 245px;
+  margin-left: 13px;
+}
+
+.topic {
+  writing-mode: vertical-lr;
+  font-size: 25px;
+  padding-left: 1px;
+}
+
+.login .btn:hover {
+  background-color: #08a1e4;
+  border: none;
+  color: white;
+}
+
+.navbar .btn:hover {
+  background-color: #f3f2ee;
+}
+
+.slide-title h2 {
+  padding-left: 50px;
+  text-shadow: 2px 2px 10px black;
+}
+
+.carousel-control .btn:hover {
+  background-color: #b9b8b5;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.carousel-indicators .icon {
+  height: 8px;
+  width: 50px;
+  background-color: #4e4e4d;
+}
+
+.carousel-indicators .active {
+  width: 200px;
+}
+
+.padding {
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.news .card .card-img-top {
+  cursor: pointer;
+}
+
+.news .card .card-img-top:hover {
+  overflow: hidden;
+  transition: 0.2s;
+  transform: scale(1.15);
+}
+
+.tag:hover {
+  background-color: #cccbc8;
+  color: #4e4e4d;
+  transition: 0.2s;
+  transform: scale(1.35);
+}
+
+.card-title:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=HW-DQ.css.map */

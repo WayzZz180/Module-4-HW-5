@@ -1,0 +1,91 @@
+@import _mixin
+
+$DQColor: #f3f2ee, #cccbc8, #b9b8b5, #4e4e4d, #08a1e4
+
+@for $i from 1 through 5
+    @include bgc(bg-DQ#{$i}, nth($DQColor, $i))
+    @include color(text-DQ#{$i}, nth($DQColor, $i))
+
+@include hnpx(25)
+@include wnpx(25)
+@include hnpx(50)
+@include wnpx(45)
+@include hnpx(45)
+@include wnpx(50)
+@include hnpx(70)
+@include wnpx(100)
+@include hnpx(150)
+@include hnpx(200)
+@include hnpx(250)
+@include wnpx(250)
+@include hnpx(850)
+
+body
+    background-color: nth($DQColor, 1)
+
+.navbar
+    margin-top: 245px
+    margin-left: 13px
+
+.topic
+    writing-mode: vertical-lr
+    font-size: 25px
+    padding-left: 1px
+
+.login
+    .btn:hover
+        background-color: nth($DQColor, 5)
+        border: none
+        color: white
+
+.navbar
+    .btn:hover
+        background-color: nth($DQColor, 1)
+
+// carousel
+.slide-title
+    h2
+        padding-left: 50px
+        text-shadow: 2px 2px 10px black
+
+.carousel-control
+    .btn:hover
+        background-color: nth($DQColor, 3)
+        transition: .2s
+        transform: scale(1.1)
+
+.carousel-indicators
+    .icon
+        height: 8px
+        width: 50px
+        background-color: nth($DQColor, 4)
+
+.carousel-indicators
+    .active
+        width: 200px
+
+.padding
+    padding-left: 4.5rem
+    padding-right: 4.5rem
+
+// Section 1: news
+.news
+    .card
+        .card-img-top
+            cursor: pointer
+
+.news
+    .card
+        .card-img-top:hover
+            overflow: hidden
+            transition: .2s
+            transform: scale(1.15)
+
+.tag:hover
+    background-color: nth($DQColor, 2)
+    color: nth($DQColor, 4)
+    transition: .2s
+    transform: scale(1.35)
+
+.card-title:hover
+    text-decoration: underline

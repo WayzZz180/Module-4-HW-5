@@ -1,0 +1,16 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "./css",
+      "savePathReplacementPairs": null
+    }
+  ],
+  "liveServer.settings.port": 5501,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#3F2914",
+    "titleBar.activeBackground": "#583A1B",
+    "titleBar.activeForeground": "#FDFBF9"
+  }
+}
